@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--MessageInputView-->
+    <declare-styleable name="MessageInputView">
+        <!--Attachment Button-->
+        <attr name="streamUiAttachButtonEnabled" format="boolean" />
+        <attr name="streamUiAttachButtonIcon" format="reference" />
+        <!-- {@deprecated Use streamUiAttachButtonIcon instead.} -->
+        <attr name="streamUiAttachButtonIconColor" format="color|reference" />
+        <!-- {@deprecated Use streamUiAttachButtonIcon instead.} -->
+        <attr name="streamUiAttachButtonIconPressedColor" format="color|reference" />
+        <!-- {@deprecated Use streamUiAttachButtonIcon instead.} -->
+        <attr name="streamUiAttachButtonIconDisabledColor" format="color|reference" />
+
+        <!--Lightning Button-->
+        <attr name="streamUiLightningButtonEnabled" format="boolean" />
+        <attr name="streamUiLightningButtonIcon" format="reference" />
+        <!-- {@deprecated Use streamUiLightningButtonIcon instead.} -->
+        <attr name="streamUiLightningButtonIconColor" format="color|reference" />
+        <!-- {@deprecated Use streamUiLightningButtonIcon instead.} -->
+        <attr name="streamUiLightningButtonIconPressedColor" format="color|reference" />
+        <!-- {@deprecated Use streamUiLightningButtonIcon instead.} -->
+        <attr name="streamUiLightningButtonIconDisabledColor" format="color|reference" />
+
+        <!--Input Text-->
+        <attr name="streamUiMessageInputTextSize" format="dimension|reference" />
+        <attr name="streamUiMessageInputTextColor" format="color|reference" />
+        <attr name="streamUiMessageInputHintText" format="string" />
+        <attr name="streamUiMessageInputHintTextColor" format="color|reference" />
+        <attr name="streamUiMessageInputScrollbarEnabled" format="boolean" />
+        <attr name="streamUiMessageInputScrollbarFadingEnabled" format="boolean" />
+        <attr name="streamUiMessageInputEditTextBackgroundDrawable" format="reference" />
+        <attr name="streamUiMessageInputCustomCursorDrawable" format="reference" />
+        <attr name="streamUiMessageInputFontAssets" format="string" />
+        <attr name="streamUiMessageInputFont" format="string" />
+        <attr name="streamUiMessageInputTextStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="streamUiMessageInputDividerBackgroundDrawable" format="reference" />
+
+        <!--Send Button-->
+        <!-- {@deprecated Use sendButton icons instead.} -->
+        <attr name="streamUiSendButtonEnabledIconColor" format="color|reference" />
+        <!-- {@deprecated Use sendButton icons instead.} -->
+        <attr name="streamUiSendButtonDisabledIconColor" format="color|reference" />
+        <!-- {@deprecated Use sendButton icons instead.} -->
+        <attr name="streamUiSendButtonPressedIconColor" format="color|reference" />
+        <attr name="streamUiSendButtonEnabledIcon" format="reference" />
+        <attr name="streamUiSendButtonDisabledIcon" format="reference" />
+        <attr name="streamUiSendButtonEnabled" format="boolean" />
+
+        <!--"Also send to channel" CheckBox-->
+        <attr name="streamUiShowSendAlsoToChannelCheckbox" format="boolean" />
+        <attr name="streamUiSendAlsoToChannelCheckboxDrawable" format="reference" />
+        <attr name="streamUiSendAlsoToChannelCheckboxGroupChatText" format="string" />
+        <attr name="streamUiSendAlsoToChannelCheckboxDirectChatText" format="string" />
+        <attr name="streamUiSendAlsoToChannelCheckboxTextFont" format="string" />
+        <attr name="streamUiSendAlsoToChannelCheckboxTextFontAssets" format="string" />
+        <attr name="streamUiSendAlsoToChannelCheckboxTextSize" format="dimension" />
+        <attr name="streamUiSendAlsoToChannelCheckboxTextColor" format="reference|color" />
+        <attr name="streamUiSendAlsoToChannelCheckboxTextStyle" format="enum" >
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+
+        <!--Mentions-->
+        <attr name="streamUiMentionsEnabled" format="boolean" />
+        <attr name="streamUiMentionsUserNameTextSize" format="dimension" />
+        <attr name="streamUiMentionsUserNameTextColor" format="reference|color" />
+        <attr name="streamUiMentionsUserNameFontAssets" format="string" />
+        <attr name="streamUiMentionsUserNameFont" format="string" />
+        <attr name="streamUiMentionsUserNameStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+
+        <attr name="streamUiMentionsNameTextSize" format="dimension" />
+        <attr name="streamUiMentionsNameTextColor" format="reference|color" />
+        <attr name="streamUiMentionsNameFontAssets" format="string" />
+        <attr name="streamUiMentionsNameFont" format="string" />
+        <attr name="streamUiMentionsNameStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="streamUiMentionsIcon" format="reference" />
+
+        <!--Constants-->
+        <attr name="streamUiAttachmentMaxFileSizeMb" format="integer" />
+
+        <!--Commands-->
+        <attr name="streamUiCommandsEnabled" format="boolean" />
+        <attr name="streamUiCommandsTitleTextSize" format="dimension" />
+        <attr name="streamUiCommandsTitleTextColor" format="reference|color" />
+        <attr name="streamUiCommandsTitleFontAssets" format="string" />
+        <attr name="streamUiCommandsTitleFont" format="string" />
+        <attr name="streamUiCommandsTitleStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="streamUiCommandsNameTextSize" format="dimension" />
+        <attr name="streamUiCommandsNameTextColor" format="reference|color" />
+        <attr name="streamUiCommandsNameFontAssets" format="string" />
+        <attr name="streamUiCommandsNameFont" format="string" />
+        <attr name="streamUiCommandsNameStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="streamUiCommandsDescriptionTextSize" format="dimension" />
+        <attr name="streamUiCommandsDescriptionTextColor" format="reference|color" />
+        <attr name="streamUiCommandsDescriptionFontAssets" format="string" />
+        <attr name="streamUiCommandsDescriptionFont" format="string" />
+        <attr name="streamUiCommandsDescriptionStyle" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+
+        <!--Suggestions-->
+        <attr name="streamUiSuggestionBackgroundColor" format="reference|color" />
+
+        <!--Attachment Dialog-->
+        <attr name="streamUiPictureAttachmentIcon" format="reference" />
+        <!-- {@deprecated Use streamUiPictureAttachmentIcon instead.} -->
+        <attr name="streamUiPictureAttachmentIconTint" format="color|reference" />
+        <attr name="streamUiFileAttachmentIcon" format="reference" />
+        <!-- {@deprecated Use streamUiFileAttachmentIcon instead.} -->
+        <attr name="streamUiFileAttachmentIconTint" format="color|reference" />
+        <attr name="streamUiCameraAttachmentIcon" format="reference" />
+        <!-- {@deprecated Use streamUiCameraAttachmentIcon instead.} -->
+        <attr name="streamUiCameraAttachmentIconTint" format="color|reference" />
+    </declare-styleable>
+
+</resources>
